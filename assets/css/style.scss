@@ -1,0 +1,159 @@
+$main-color:blue;
+
+
+@mixin btn-main{
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: $main-color;
+    border: none;
+}
+
+@mixin btn-main2{
+    display: flex;
+    justify-content: end;
+    margin-right: 21rem;
+    margin-top: -9rem;
+}
+
+header{
+    background-color: $main-color;
+    margin-top: -1rem;
+    padding: 1rem;
+    .header-up{
+        color: white;
+        .logo{
+            h2{
+                margin-left: 5rem;
+            }
+        }
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu{
+        a{
+            color: white;
+            margin-right: 2rem;
+            margin-top: -40px;
+        }
+    }
+
+    .mon{
+        i{
+            color: #fff;
+            display: flex;
+            justify-content: end;
+            margin-right: 5rem;
+            margin-top: -40px;
+        }
+    }
+}
+
+#slider{
+    background-color: $main-color;
+    padding: 1rem;
+    .text{
+        margin-top: 10rem;
+        width: 300px;
+        margin-left: 5rem;
+    }
+    h1{
+        color: white;
+    }
+
+    p{
+        width: 520px;
+        color: white;
+        margin-bottom: 3rem;
+    }
+
+    .box{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 5rem;
+    }
+
+    .box1{
+        margin-top: 1rem;
+        a{
+            @include btn-main;
+        }
+    }
+
+    .box2{
+        margin-left: 2rem;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    i{
+        background-color: white;
+        border: 1px solid #fff;
+        padding: 15px;
+        border-radius: 50px;
+    }
+
+    .image{
+        display: flex;
+        justify-content: end;
+        margin-right: 8rem;
+        height: 362px;
+        margin-top: -19rem;
+    }
+}
+
+#slide{
+    .images{
+        img{
+            margin-left: 6rem;
+            margin-top: 8rem;
+            width: 600px;
+        }
+    }
+
+    .test{
+        display: flex;
+        justify-content: end;
+    }
+
+    .test{
+        p{
+            margin-top: -18rem;
+            font-weight: bold;
+        }
+
+        h2{
+            width: 368px;
+            margin-top: -15rem;
+            margin-right: 22rem;
+            margin-left: -70px;
+        }
+    }
+
+    .test2{
+        @include btn-main2;
+    }
+
+    .test2{
+        a{
+            color: black;
+            margin-right: 40px;
+            border: 1px solid;
+            padding: 6px;
+            text-decoration: none;
+        }
+    }
+
+    .text2{
+        width: 500px;
+        margin-left: 48rem;
+        margin-top: 2rem;
+    }
+}

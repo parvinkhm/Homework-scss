@@ -1,0 +1,119 @@
+header {
+  background-color: blue;
+  margin-top: -1rem;
+  padding: 1rem;
+}
+header .header-up {
+  color: white;
+}
+header .header-up .logo h2 {
+  margin-left: 5rem;
+}
+header .menu {
+  display: flex;
+  justify-content: center;
+}
+header .menu a {
+  color: white;
+  margin-right: 2rem;
+  margin-top: -40px;
+}
+header .mon i {
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  margin-right: 5rem;
+  margin-top: -40px;
+}
+
+#slider {
+  background-color: blue;
+  padding: 1rem;
+}
+#slider .text {
+  margin-top: 10rem;
+  width: 300px;
+  margin-left: 5rem;
+}
+#slider h1 {
+  color: white;
+}
+#slider p {
+  width: 520px;
+  color: white;
+  margin-bottom: 3rem;
+}
+#slider .box {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5rem;
+}
+#slider .box1 {
+  margin-top: 1rem;
+}
+#slider .box1 a {
+  padding: 15px 35px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: white;
+  color: blue;
+  border: none;
+}
+#slider .box2 {
+  margin-left: 2rem;
+}
+#slider a {
+  color: #fff;
+  text-decoration: none;
+}
+#slider i {
+  background-color: white;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 50px;
+}
+#slider .image {
+  display: flex;
+  justify-content: end;
+  margin-right: 8rem;
+  height: 362px;
+  margin-top: -19rem;
+}
+
+#slide .images img {
+  margin-left: 6rem;
+  margin-top: 8rem;
+  width: 600px;
+}
+#slide .test {
+  display: flex;
+  justify-content: end;
+}
+#slide .test p {
+  margin-top: -18rem;
+  font-weight: bold;
+}
+#slide .test h2 {
+  width: 368px;
+  margin-top: -15rem;
+  margin-right: 22rem;
+  margin-left: -70px;
+}
+#slide .test2 {
+  display: flex;
+  justify-content: end;
+  margin-right: 21rem;
+  margin-top: -9rem;
+}
+#slide .test2 a {
+  color: black;
+  margin-right: 40px;
+  border: 1px solid;
+  padding: 6px;
+  text-decoration: none;
+}
+#slide .text2 {
+  width: 500px;
+  margin-left: 48rem;
+  margin-top: 2rem;
+}/*# sourceMappingURL=style.css.map */
